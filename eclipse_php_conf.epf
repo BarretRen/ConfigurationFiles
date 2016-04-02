@@ -824,7 +824,6 @@
 /instance/org.eclipse.cdt.ui/c_single_line_comment=173,149,175
 /instance/com.powerflasher.fdt.ui/com.powerflasher.fdt.ui.AS3SemanticHighlightGenerator.AS3.RegEx_strikethrough=false
 /instance/org.python.pydev/STRING_STYLE=0
-/instance/org.eclipse.egit.core/GitRepositoriesView.GitDirectories=D\:\\PhpComeOn\\htdocs\\EclipseWorkspace\\BarretPhpProject\\.git;
 /instance/org.eclipse.ui.ide/EXIT_PROMPT_ON_CLOSE_LAST_WINDOW=false
 /instance/org.eclipse.dltk.ruby.ui/variable=85,170,85
 /instance/de.walware.statet.r.ui/text_R_rNumbers.strikethrough=false
@@ -1915,7 +1914,6 @@ file_export_version=3.0
 /instance/org.eclipse.pde.ui/editor.color.instr=188,90,101
 /instance/org.eclipse.cdt.ui/pp_default=88,88,88
 /instance/com.adobe.flexide.mxml.core/mxmlTagBold=false
-/configuration/org.eclipse.ui.ide/RECENT_WORKSPACES=D\:\\PhpComeOn\\htdocs\\EclipseWorkspace\nD\:\\EclipseWorkspace
 /instance/org.eclipse.angularjs.ui/directiveParameterName=\#B05A65 | null | false | null | null | null
 /instance/jsonedit-core/nullColor=88,88,88
 /instance/org.eclipse.cdt.ui/c_operators=0,0,0
