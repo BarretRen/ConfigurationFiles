@@ -270,7 +270,6 @@
 /instance/ccw.core/ccw.preferences.editor_color.FUNCTION.enabled=true
 /instance/org.eclipse.wst.css.ui/PROPERTY_NAME=\#566874 | null | false | true | null | null
 /instance/org.eclipse.jsch.core/org.eclipse.jsch.core.hasChangedDefaultWin32SshHome=true
-/instance/org.eclipse.egit.core/RepositorySearchDialogSearchPath=D\:\\PhpComeOn\\htdocs\\EclipseWorkspace\\BarretPhpProject
 /instance/org.eclipse.datatools.sqltools.sqleditor/Type=0,0,0,0,0,171,37,37
 /instance/com.powerflasher.fdt.ui/com.powerflasher.fdt.ui.AS3SemanticHighlightGenerator.AS3.XMLComment_enabled=true
 /instance/de.walware.statet.r.ui/text_Rd_rdSubSectionTag.bold=true
@@ -1165,7 +1164,6 @@
 /instance/jsonedit-core/valueColor=86,104,116
 /instance/net.vtst.ow.eclipse.less.Less/net.vtst.ow.eclipse.less.Less.syntaxColorer.tokenStyles.COMMENT.color=173,149,175
 /instance/com.powerflasher.fdt.ui/com.powerflasher.fdt.ui.mxml.mxmlHighlightGenerator.AS3.MXMLComment_strikethrough=false
-/instance/org.eclipse.php.debug.core/org.eclipse.php.debug.coreinstalledPHPLocations=D\:\\PhpComeOn\\php\\php.exe
 /instance/de.walware.statet.r.ui/text_R_rUndefined.bold=false
 /instance/org.codehaus.groovy.eclipse.ui/groovy.editor.highlight.javakeywords.color=41,95,148
 /instance/org.eclipse.jst.jsp.ui/jsp_content=\#585858 | null | null | null | null | null
@@ -1367,7 +1365,7 @@
 /instance/org.cfeclipse.cfml/cfcommentBackgroundColor=245,245,245
 /instance/com.powerflasher.fdt.ui/com.powerflasher.fdt.ui.mxml.mxmlHighlightGenerator.AS3.MXMLEventName_strikethrough=false
 /instance/org.eclipse.jdt.ui/semanticHighlighting.localVariable.italic=false
-/instance/org.eclipse.ui.workbench/org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<org.eclipse.ui.commands>\r\n<keyBinding contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+SHIFT+NUMPAD_DIVIDE"/>\r\n<keyBinding commandId\="org.eclipse.ui.edit.text.folding.collapse_all" contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+SHIFT+NUMPAD_DIVIDE"/>\r\n<keyBinding contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+SHIFT+NUMPAD_DIVIDE"/>\r\n<keyBinding contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+SHIFT+NUMPAD_DIVIDE"/>\r\n<keyBinding commandId\="org.eclipse.ui.edit.text.folding.collapse_all" contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="ALT+CTRL+C"/>\r\n<keyBinding contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+NUMPAD_MULTIPLY"/>\r\n<keyBinding contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+NUMPAD_MULTIPLY"/>\r\n<keyBinding commandId\="org.eclipse.ui.edit.text.folding.expand_all" contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="ALT+CTRL+E"/>\r\n</org.eclipse.ui.commands>
+/instance/org.eclipse.ui.workbench/org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<org.eclipse.ui.commands>\r\n<keyBinding commandId\="org.eclipse.ui.edit.text.folding.collapse_all" contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="ALT+CTRL+C"/>\r\n<keyBinding commandId\="org.eclipse.ui.ToggleCoolbarAction" contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="ALT+CTRL+T"/>\r\n<keyBinding contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+NUMPAD_MULTIPLY"/>\r\n<keyBinding contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+SHIFT+NUMPAD_DIVIDE"/>\r\n<keyBinding commandId\="org.eclipse.ui.edit.text.folding.collapse_all" contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+SHIFT+NUMPAD_DIVIDE"/>\r\n<keyBinding commandId\="org.eclipse.ui.edit.text.folding.expand_all" contextId\="org.eclipse.ui.textEditorScope" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="ALT+CTRL+E"/>\r\n</org.eclipse.ui.commands>
 /instance/ccw.core/ccw.preferences.editor_color.callableRAW_SYMBOL.bold=false
 /instance/org.eclipse.dltk.ruby.ui/variable.class=171,37,37
 /instance/com.puppetlabs.geppetto.pp.dsl.PP/com.puppetlabs.geppetto.pp.dsl.PP.syntaxColorer.tokenStyles.resourceTitle.color=10,11,12
