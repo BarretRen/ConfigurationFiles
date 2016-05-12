@@ -2,7 +2,7 @@ set enc=utf-8  "vim内部编码
 "下面两行用于防止gvim提示和软件显示出现问题
 set fenc=utf-8 "文件保存编码
 set guifont=Consolas:h11
-set mouse=a      "任何模式使用鼠标 
+"set mouse=a      "任何模式使用鼠标 
 set expandtab    "将Tab键转换为空格                          
 set tabstop=4    "设置Tab键的宽度，可以更改，如：宽度为2
 set shiftwidth=4  "换行时自动缩进宽度，可更改（宽度同tabstop）
@@ -150,7 +150,7 @@ let g:miniBufExplUseSingleClick = 1 "Change buffer with single click on a buffer
 "--------------------------------------------------------------------------------
 " cscope
 "--------------------------------------------------------------------------------
-cs add /repo2/barretr/workspace/cscope.out /repo2/barretr/workspace
+cs add /repo2/barretr/workspace/fdt1265_tmp/cscope.out /repo2/barretr/workspace/fdt1265_tmp/
 ":set cscopequickfix=s-,c-,d-,i-,t-,e-   "是否使用 quickfix 窗口来显示 cscope 结果
 :set cscopetag
 ":set tags=/home/barretr/space/cvpsw/tags,/home/barretr/space/ISR5501/sw/vobs/tags
@@ -166,7 +166,7 @@ nmap <C-_>f :cs find f <C-R>=expand("<cfile>")<cr><cr>
 nmap <C-_>i :cs find i <C-R>=expand("<cfile>")<cr><cr>
 nmap <C-_>d :cs find d <C-R>=expand("<cword>")<cr><cr>
 "设置自动更新cscope索引文件的快捷键
-nmap <F9> :!find . -iname '*.c' -o -iname '*.cpp' -o -iname '*.h' -o -iname '*.hpp' -o -iname '*.cc' -o -iname '*.hh' > ./cscope.files<CR> :!cscope -b -q -i ./cscope.files -f ./cscope.out<CR> :cs reset<CR> 
+nmap <F9> :!find . -iname '*.c' -o -iname '*.cpp' -o -iname '*.h' -o -iname '*.hpp' -o -iname '*.cc' -o -iname '*.hh' -o -iname "*.idl" > ./cscope.files<CR> :!cscope -b -q -i ./cscope.files -f ./cscope.out<CR> :cs reset<CR> 
 nmap <F10> :cs reset<CR>
 "----------------------------------------------------------------------------
 "source exploer
