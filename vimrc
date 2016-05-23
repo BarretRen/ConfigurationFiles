@@ -3,6 +3,7 @@ set enc=utf-8  "vim内部编码
 set fenc=utf-8 "文件保存编码
 set guifont=Consolas:h11
 "set mouse=a      "任何模式使用鼠标 
+set mouse=nv      "只在普通和可视模式使用鼠标
 set expandtab    "将Tab键转换为空格                          
 set tabstop=4    "设置Tab键的宽度，可以更改，如：宽度为2
 set shiftwidth=4  "换行时自动缩进宽度，可更改（宽度同tabstop）
@@ -15,9 +16,8 @@ set wrap           " 自动换行
 "set nowrap         " 不自动换行
 set linebreak       " 整词换行
 set whichwrap=b,s,<,>,[,]       " 光标从行首和行末时可以跳到另一行去
-"set list                       " 显示制表符
-"set listchars = tab:>-,trail:- " 将制表符显示为'>---',将行尾空格显示为'-'
-set listchars=tab:.\ ,trail:.   " 将制表符显示为'.   '
+set list                       " 显示制表符
+set listchars = tab:>-,trail:- " 将制表符显示为'>---',将行尾空格显示为'-'
 set autochdir                   " 自动设置目录为正在编辑的文件所在的目录
 set hidden          " 没有保存的缓冲区可以自动被隐藏
 set scrolloff=5
