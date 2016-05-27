@@ -16,8 +16,8 @@ set wrap           " 自动换行
 "set nowrap         " 不自动换行
 set linebreak       " 整词换行
 set whichwrap=b,s,<,>,[,]       " 光标从行首和行末时可以跳到另一行去
-set list                       " 显示制表符
-set listchars = tab:>-,trail:- " 将制表符显示为'>---',将行尾空格显示为'-'
+"set list                       " 显示制表符
+"set listchars=tab:>-,trail:-     " 将制表符显示为'>---',将行尾空格显示为'-'
 set autochdir                   " 自动设置目录为正在编辑的文件所在的目录
 set hidden          " 没有保存的缓冲区可以自动被隐藏
 set scrolloff=5
@@ -69,8 +69,8 @@ colorscheme desert
 " 代码
 "--------------------------------------------------------------------------------
 "set foldmarker={,}
-"set foldmethod=marker
-set foldmethod=syntax
+set foldmethod=marker "代码折叠
+"set foldmethod=syntax
 set foldlevel=100       " Don't autofold anything (but I can still fold manually)
 "set foldopen-=search   " don't open folds when you search into them
 "set foldopen-=undo     " don't open folds when you undo stuff
@@ -96,7 +96,7 @@ nmap wx     <C-w>s     " 水平分割当前窗口
 "--------------------------------------------------------------------------------
 nmap <F4> :w<cr>    "保存文件修改
 nmap <F3> :q<cr>    "退出vim
-"nmap <C-h> :bro ol<cr>  "浏览文件打开记录
+nmap <C-h> :bro ol<cr>  "浏览文件打开记录
 nmap <F2> :bd<cr>    "关闭minibufexplorer中的某个文件
 "###############################################################################
 " The following is the Plugins' setting
@@ -107,29 +107,9 @@ nmap <F2> :bd<cr>    "关闭minibufexplorer中的某个文件
 "--------------------------------------------------------------------------------
 let Tlist_Show_One_File=1  "只显示当前文件的tag
 let Tlist_Exit_OnlyWindow = 1  "taglist为最后一个窗口时，退出vim
-let Tlist_Use_Right_Window=1   "taglist窗口放在右侧
+let Tlist_Use_Right_Window = 1   "taglist窗口放在右侧
 let Tlist_Show_Menu=1   "显示菜单
-"--------------------------------------------------------------------------------
-" NERDTree 文件浏览器 :e <PATH>
-"--------------------------------------------------------------------------------
-let g:NERDTree_title='NERD Tree'
-function! NERDTree_Start()
-	    exec 'NERDTree'
-endfunction
-
-function! NERDTree_IsValid()
-		    return 1
-endfunction
-"let NERDTreeShowBookmarks=1 "显示书签
-let NERDTreeMinimalUI=0 "不显示帮助面板
-let NERDTreeDirArrows=0 "目录箭头 1 显示箭头  0传统+-|号
- 
-"--------------------------------------------------------------------------------
-" write buffer
-"--------------------------------------------------------------------------------
-nmap <F6> :n<cr>   " 切换到下一个buffer
-nmap <F7> :N<cr>   " 切换到上一个buffer
- 
+nmap tl :TlistToggle<cr>
 "--------------------------------------------------------------------------------
 " WinManager :WMToggle
 "--------------------------------------------------------------------------------
@@ -137,7 +117,7 @@ nmap <F7> :N<cr>   " 切换到上一个buffer
 "let g:defaultExplorer = 0
 "nmap <C-w><C-b> :BottomExplorerWindow<cr> " 切换到最下面一个窗格
 "nmap <C-w><C-f> :FirstExplorerWindow<cr>   " 切换到最上面一个窗格
-let g:winManagerWindowLayout='NERDTree|TagList'
+let g:winManagerWindowLayout='FileExplorer'
 nmap wm :WMToggle<cr>
 "--------------------------------------------------------------------------------
 " MiniBufExp
@@ -179,7 +159,7 @@ let g:SrcExpl_updateTagsKey = "<F12>"   "更新tags的快捷键
 "--------------------------------------------------------------------------------
 " Grep
 "--------------------------------------------------------------------------------
-"直接按下<F3>键来查找光标所在的字符串
+"直接按下<F8>键来查找光标所在的字符串
 nnoremap <silent> <F8> :Rgrep<CR>
  
 
