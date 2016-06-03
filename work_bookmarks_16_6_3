@@ -1,0 +1,540 @@
+{
+   "checksum": "53a73c8d1d47de3f47c027019a71a5a7",
+   "roots": {
+      "bookmark_bar": {
+         "children": [  ],
+         "date_added": "13105444519287505",
+         "date_modified": "0",
+         "id": "1",
+         "name": "书签栏",
+         "type": "folder"
+      },
+      "custom_root": {
+         "speedDial": {
+            "children": [ {
+               "children": [ {
+                  "children": [ {
+                     "date_added": "13103453897000000",
+                     "id": "49",
+                     "name": "phpMyAdmin",
+                     "type": "url",
+                     "url": "https://localhost/phpmyadmin/"
+                  }, {
+                     "date_added": "13106904111735778",
+                     "id": "64",
+                     "meta_info": {
+                        "imageDataType": "2",
+                        "imageID": "12EC1301BDECF4053977BD12AFC547142E6C16782008ABE5D9034E011E0056A7",
+                        "imageIdentifier": "3ec32979",
+                        "imageType": "2"
+                     },
+                     "name": "Laravel",
+                     "type": "url",
+                     "url": "https://www.barretren.com/"
+                  } ],
+                  "date_added": "13108628513123893",
+                  "date_modified": "13109387704473919",
+                  "id": "69",
+                  "name": "PHP",
+                  "type": "folder"
+               }, {
+                  "children": [ {
+                     "date_added": "13108813099036640",
+                     "id": "73",
+                     "meta_info": {
+                        "imageDataType": "2",
+                        "imageID": "6E7595B9926CE30FAC8C79775EC9DD4C06677A2BE3C7E961E849FC4AEBD92109",
+                        "imageIdentifier": "111180b8",
+                        "imageType": "2"
+                     },
+                     "name": "文章列表 - 虎哥的代码人生 - 博客频道 - CSDN.NET",
+                     "type": "url",
+                     "url": "http://blog.csdn.net/a5454123a"
+                  }, {
+                     "date_added": "13101133289000000",
+                     "id": "48",
+                     "name": "片源网",
+                     "type": "url",
+                     "url": "http://pianyuan.net/"
+                  }, {
+                     "date_added": "13097737187000000",
+                     "id": "47",
+                     "name": "字幕库",
+                     "type": "url",
+                     "url": "http://www.zimuku.net/"
+                  }, {
+                     "date_added": "13097737187000000",
+                     "id": "16",
+                     "name": "QQ邮箱",
+                     "type": "url",
+                     "url": "https://mail.qq.com/cgi-bin/frame_html?sid=dS-ybJLx1CmnKXIk&r=efe5558583e96cfbcd834097552902d9"
+                  }, {
+                     "date_added": "13097737187000000",
+                     "id": "18",
+                     "name": "百度地图",
+                     "type": "url",
+                     "url": "http://map.baidu.com/"
+                  }, {
+                     "date_added": "13097737187000000",
+                     "id": "19",
+                     "name": "百度贴吧",
+                     "type": "url",
+                     "url": "http://tieba.baidu.com/"
+                  }, {
+                     "date_added": "13097737187000000",
+                     "id": "20",
+                     "name": "百度云",
+                     "type": "url",
+                     "url": "http://pan.baidu.com/disk/home"
+                  }, {
+                     "date_added": "13097737187000000",
+                     "id": "21",
+                     "name": "网易云音乐",
+                     "type": "url",
+                     "url": "http://music.163.com/"
+                  }, {
+                     "date_added": "13097737187000000",
+                     "id": "22",
+                     "name": "支付宝",
+                     "type": "url",
+                     "url": "https://personalweb.alipay.com/portal/newhome.htm"
+                  }, {
+                     "date_added": "13099028549000000",
+                     "id": "23",
+                     "name": "Bitbucket",
+                     "type": "url",
+                     "url": "https://bitbucket.org/"
+                  }, {
+                     "date_added": "13104291132000000",
+                     "id": "24",
+                     "name": "StillWaiting的课程",
+                     "type": "url",
+                     "url": "http://www.imooc.com/u/2411640/courses"
+                  } ],
+                  "date_added": "13105444789015248",
+                  "date_modified": "13109216192142330",
+                  "id": "15",
+                  "name": "个人",
+                  "type": "folder"
+               }, {
+                  "children": [ {
+                     "date_added": "13109216191604574",
+                     "id": "76",
+                     "meta_info": {
+                        "imageDataType": "2",
+                        "imageID": "5E1DFB23D3593B6A1D41EB5D7E3DB0FFAC557159A98F64A5BD9EC1377197A401",
+                        "imageIdentifier": "6fd8fb3b",
+                        "imageType": "2"
+                     },
+                     "name": "Coverity",
+                     "type": "url",
+                     "url": "http://devws048.be.alcatel-lucent.com:8080/reports.htm#v20772/p10213/fileInstanceId=68016479&defectInstanceId=36631237&mergedDefectId=54283"
+                  }, {
+                     "date_added": "13108028041870515",
+                     "id": "67",
+                     "meta_info": {
+                        "imageDataType": "2",
+                        "imageID": "621ADF96A5AEAEA3DB2B13D3E935E175D800E5307AE10DE6A3295D7E1867A434",
+                        "imageIdentifier": "5cbe53cf",
+                        "imageType": "2"
+                     },
+                     "name": "QD-FN Lab Management Platform Power by Edison GUO",
+                     "type": "url",
+                     "url": "http://135.251.92.228/index.php"
+                  }, {
+                     "date_added": "13107926416396297",
+                     "id": "66",
+                     "meta_info": {
+                        "imageDataType": "2",
+                        "imageID": "431ACA008470F5E3DCA3D7642A15B4BCBC09AE61EB468558BA0E447A3DFB5E46",
+                        "imageIdentifier": "547752f0",
+                        "imageType": "2"
+                     },
+                     "name": "缩写查询",
+                     "type": "url",
+                     "url": "http://aamc.web.lucent.com/"
+                  }, {
+                     "date_added": "13107578698083453",
+                     "id": "65",
+                     "meta_info": {
+                        "imageDataType": "2",
+                        "imageID": "691259C94158333799077572231A6DDB16B6B2216C432F205D688A2ECC3F5B79",
+                        "imageIdentifier": "603bf1a3",
+                        "imageType": "2"
+                     },
+                     "name": "KnowledgeBase",
+                     "type": "url",
+                     "url": "http://fn-cm.sbell.com.cn/wiki/index.php/Main_Page"
+                  }, {
+                     "date_added": "13106902669637713",
+                     "id": "63",
+                     "meta_info": {
+                        "imageDataType": "2",
+                        "imageID": "E2B477487BC3648591C9A2107CE292C6901A1740AA4EC1C0098532681797216D",
+                        "imageIdentifier": "350e6406",
+                        "imageType": "2"
+                     },
+                     "name": "ISR5501 [Jenkins]",
+                     "type": "url",
+                     "url": "http://135.251.206.211:8080/view/ISR5501/"
+                  }, {
+                     "date_added": "13105592780185487",
+                     "id": "56",
+                     "meta_info": {
+                        "imageDataType": "2",
+                        "imageID": "1DC003B609C4DB5BADDF5BF45EF6D50E4DE8F2DB876EFEE8C82F49A9B7D61AF8",
+                        "imageIdentifier": "50694fd8",
+                        "imageType": "2"
+                     },
+                     "name": " Transcript",
+                     "type": "url",
+                     "url": "https://alcatel-lucent.csod.com/phnx/driver.aspx?routename=Social/UniversalProfile/Transcript&TargetUser=128428#loaded"
+                  }, {
+                     "date_added": "13103101502000000",
+                     "id": "33",
+                     "name": "Fsdbgui",
+                     "type": "url",
+                     "url": "http://135.252.37.119:8090/AsProvMod20/Contents.jsp"
+                  }, {
+                     "date_added": "13103101502000000",
+                     "id": "34",
+                     "name": "Ihssgui",
+                     "type": "url",
+                     "url": "http://135.252.37.119:8090/HssProvMod20/Contents.jsp"
+                  }, {
+                     "date_added": "13103101502000000",
+                     "id": "35",
+                     "name": "Lab Assignment",
+                     "type": "url",
+                     "url": "http://fn-cm.sbell.com.cn/wiki/index.php/Lab_Assignment"
+                  }, {
+                     "date_added": "13103101502000000",
+                     "id": "36",
+                     "name": "REN Barret",
+                     "type": "url",
+                     "url": "http://directory.app.alcatel-lucent.com/en/Rupi=CV0040034&S=REN"
+                  }, {
+                     "date_added": "13103101502000000",
+                     "id": "37",
+                     "name": "Web Library",
+                     "type": "url",
+                     "url": "https://ct.web.alcatel-lucent.com/scm-lib4/"
+                  }, {
+                     "date_added": "13103101502000000",
+                     "id": "38",
+                     "name": "培训考试",
+                     "type": "url",
+                     "url": "https://alcatel-lucent.csod.com/phnx/driver.aspx?routename=Social/UniversalProfile/Transcript&TargetUser=128428&RESET=TRUE&tab_page_id=-8"
+                  }, {
+                     "date_added": "13103101502000000",
+                     "id": "39",
+                     "name": "Workstation",
+                     "type": "url",
+                     "url": "http://172.24.213.140/~buildmgr/hoststatus.html"
+                  }, {
+                     "date_added": "13103101502000000",
+                     "id": "40",
+                     "name": "review",
+                     "type": "url",
+                     "url": "http://devws048.be.alcatel-lucent.com:5000/review/ms/sw-review"
+                  }, {
+                     "date_added": "13097737187000000",
+                     "id": "42",
+                     "name": "Everything",
+                     "type": "url",
+                     "url": "http://135.251.92.101/?search="
+                  }, {
+                     "date_added": "13103949963000000",
+                     "id": "43",
+                     "name": "SOSpassword",
+                     "type": "url",
+                     "url": "https://sospassword.all.alcatel-lucent.com/sospassword/indexServlet"
+                  } ],
+                  "date_added": "13105444789018914",
+                  "date_modified": "13109216224821491",
+                  "id": "31",
+                  "name": "朗讯",
+                  "type": "folder"
+               }, {
+                  "children": [ {
+                     "date_added": "13097737187000000",
+                     "id": "27",
+                     "name": "IT报修",
+                     "type": "url",
+                     "url": "http://ithelpdesk.alcatel-sbell.com.cn/postback/index.aspx"
+                  }, {
+                     "date_added": "13097737187000000",
+                     "id": "28",
+                     "name": "K3",
+                     "type": "url",
+                     "url": "http://135.252.137.11/KDHRMS/login.aspx"
+                  }, {
+                     "date_added": "13097737187000000",
+                     "id": "29",
+                     "name": "OA协同办公平台",
+                     "type": "url",
+                     "url": "http://135.252.137.11:7890/oa/themes/mskin/login/login.jsp"
+                  }, {
+                     "date_added": "13097737187000000",
+                     "id": "30",
+                     "name": "百灵邮箱",
+                     "type": "url",
+                     "url": "http://mail.centling.com/"
+                  } ],
+                  "date_added": "13105444789017859",
+                  "date_modified": "0",
+                  "id": "26",
+                  "name": "百灵",
+                  "type": "folder"
+               }, {
+                  "date_added": "13106369424467256",
+                  "id": "62",
+                  "meta_info": {
+                     "imageDataType": "2",
+                     "imageID": "5A0E58A4F2F0C00F9B91A110F2AD6D62D7767AB2A16FAD166340870BF01C55EB",
+                     "imageIdentifier": "68ce9304",
+                     "imageType": "2"
+                  },
+                  "name": "IT eBooks",
+                  "type": "url",
+                  "url": "http://www.it-ebooks.info/"
+               }, {
+                  "date_added": "13108641096390096",
+                  "id": "70",
+                  "meta_info": {
+                     "imageDataType": "2",
+                     "imageID": "B7469ABD9DBF3C888629A6EB20108C38355AE497A7581FB167A485E544F7A72A",
+                     "imageIdentifier": "73523209",
+                     "imageType": "2"
+                  },
+                  "name": "Laravel博客",
+                  "type": "url",
+                  "url": "http://laravelacademy.org/tutorials/blog"
+               }, {
+                  "date_added": "13097737187000000",
+                  "id": "44",
+                  "name": "pkgs.org",
+                  "type": "url",
+                  "url": "http://pkgs.org/"
+               }, {
+                  "date_added": "13097737187000000",
+                  "id": "45",
+                  "name": "网盘搜索",
+                  "type": "url",
+                  "url": "http://so.baiduyun.me/"
+               }, {
+                  "date_added": "13097737187000000",
+                  "id": "46",
+                  "name": "有道翻译",
+                  "type": "url",
+                  "url": "http://fanyi.youdao.com/"
+               } ],
+               "date_added": "13105444520682389",
+               "date_modified": "13109387702925629",
+               "id": "8",
+               "meta_info": {
+                  "speed_dial_root_folder_guid": "DC8757A2-BE1B-45BD-A0CC-3315FDF1FA00"
+               },
+               "name": "CV0040034N9",
+               "type": "folder"
+            } ],
+            "date_added": "13105444520682063",
+            "date_modified": "0",
+            "id": "6",
+            "name": "我的导航",
+            "type": "folder"
+         },
+         "trash": {
+            "children": [ {
+               "date_added": "13108628470108021",
+               "id": "68",
+               "meta_info": {
+                  "imageDataType": "2",
+                  "imageID": "448936961568F4810CF3DE49530B17A4D643DD1F1DC20C01946499593CF86A70",
+                  "imageIdentifier": "052bf523",
+                  "imageType": "2"
+               },
+               "name": "Welcome to XAMPP",
+               "type": "url",
+               "url": "http://localhost/dashboard/"
+            }, {
+               "date_added": "13109134004974170",
+               "id": "75",
+               "meta_info": {
+                  "imageDataType": "2",
+                  "imageID": "D12B20CB3927C51AAD2AFAC4A777F32C104FB5973402C88A6BE483217A6B53F3",
+                  "imageIdentifier": "4877a113",
+                  "imageType": "2"
+               },
+               "name": "vr之家_我们一起玩vr",
+               "type": "url",
+               "url": "http://vr.aili.com/"
+            }, {
+               "date_added": "13109043035422196",
+               "id": "74",
+               "meta_info": {
+                  "imageDataType": "2",
+                  "imageID": "81312ACF300DC55513D1EE58995CEE1F8EB5342132B5C5F1F2E50E44EBCB39EF",
+                  "imageIdentifier": "5fddaa6d",
+                  "imageType": "2"
+               },
+               "name": "Document Index [Search mode = number][Search key = 3HH-13373]",
+               "type": "url",
+               "url": "https://ct.web.alcatel-lucent.com/scm-lib4/show-index-quick.cgi"
+            }, {
+               "date_added": "13104291614000000",
+               "id": "25",
+               "name": "控制台sae",
+               "type": "url",
+               "url": "http://sae.sina.com.cn/?m=dashboard"
+            }, {
+               "date_added": "13108783993801233",
+               "id": "72",
+               "meta_info": {
+                  "imageDataType": "2",
+                  "imageID": "BB6AFD26F006EAD0DC9AC7083BBF68A762A31A0671ADC685A7DEC775C97D975A",
+                  "imageIdentifier": "1f67b1da",
+                  "imageType": "2"
+               },
+               "name": "CSDN博客",
+               "type": "url",
+               "url": "http://write.blog.csdn.net/postlist"
+            }, {
+               "date_added": "13108783893236997",
+               "id": "71",
+               "meta_info": {
+                  "imageDataType": "2",
+                  "imageID": "AE13A4E49CD5BC89853161208E1AC3685AEC82F7195761A3FBD5BAEF9E721D83",
+                  "imageIdentifier": "79201f19",
+                  "imageType": "2"
+               },
+               "name": "我的CSDN",
+               "type": "url",
+               "url": "http://my.csdn.net/my/mycsdn"
+            }, {
+               "date_added": "13106278992414609",
+               "id": "61",
+               "meta_info": {
+                  "imageDataType": "2",
+                  "imageID": "2074659C810EC37868CC84456FF46A7E1E4563CFDE8E34C3F03488DD69ED4995",
+                  "imageIdentifier": "59ac0cc2",
+                  "imageType": "2"
+               },
+               "name": "Laravel 5.1 基础教程",
+               "type": "url",
+               "url": "http://laravelacademy.org/laravel-tutorial-5_1"
+            }, {
+               "date_added": "13106017476600748",
+               "id": "57",
+               "meta_info": {
+                  "imageDataType": "2",
+                  "imageID": "5E65EAEAE27E090E45E0FC4C2EEB998F259FD5FE6AF5B52465D7A15270D8B92B",
+                  "imageIdentifier": "31a6f163",
+                  "imageType": "2"
+               },
+               "name": "青岛住房公积金",
+               "type": "url",
+               "url": "http://www.qdgjj.com/index.php?a=article&m=scene&id=1455"
+            }, {
+               "date_added": "13098848027000000",
+               "id": "17",
+               "name": "网易邮箱",
+               "type": "url",
+               "url": "http://mail.163.com/js6/main.jsp?sid=QDkbTtggqMZYoEuryTggTlnQNZZtaJmk&df=unknow"
+            }, {
+               "date_added": "13105096536000000",
+               "id": "50",
+               "name": "Index",
+               "type": "url",
+               "url": "https://www.barretren.com/EclipseWorkspace/PhpAdvanceCode/"
+            }, {
+               "date_added": "13103101502000000",
+               "id": "41",
+               "name": "Jenkins",
+               "type": "url",
+               "url": "http://135.251.206.211:8080/view/ISR55/"
+            }, {
+               "date_added": "13105431495000000",
+               "id": "51",
+               "name": "Docker中文教程",
+               "type": "url",
+               "url": "https://code.csdn.net/u010702509/docker/file/Docker.md#"
+            }, {
+               "date_added": "13106036311035273",
+               "id": "58",
+               "meta_info": {
+                  "imageDataType": "2",
+                  "imageID": "B40FBFAAE20388AFFE6258ABED037D8E8731379289D4437CE2400C48EA09D02D",
+                  "imageIdentifier": "6b0fff28",
+                  "imageType": "2"
+               },
+               "name": "荣耀6 Plus官方固件合集—持续更新！ - 荣耀6 Plus 花粉俱乐部",
+               "type": "url",
+               "url": "http://club.huawei.com/thread-2217707-1-1.html"
+            }, {
+               "date_added": "13106129706502748",
+               "id": "60",
+               "meta_info": {
+                  "imageDataType": "2",
+                  "imageID": "3C2574B4D2B1AB9B687CF4BE19789C25BF4104103E264B2E466BF1AB2CF8B96C",
+                  "imageIdentifier": "5e1565b2",
+                  "imageType": "2"
+               },
+               "name": "Laravel视频教程_Laravel在线学习-极客学院",
+               "type": "url",
+               "url": "http://www.jikexueyuan.com/course/laravel/"
+            }, {
+               "date_added": "13106039724821060",
+               "id": "59",
+               "meta_info": {
+                  "imageDataType": "2",
+                  "imageID": "9B49E9FDABF30DFD0EFEE4F2AED014DF4EF8D243DCD0F17210C0D0F3A6BD15F7",
+                  "imageIdentifier": "0433cfa4",
+                  "imageType": "2"
+               },
+               "name": "Laravel 5.2 中文文档 – Laravel学院",
+               "type": "url",
+               "url": "http://laravelacademy.org/laravel-docs-5_2"
+            } ],
+            "date_added": "13105444520682064",
+            "date_modified": "13109387708415228",
+            "id": "7",
+            "name": "回收站",
+            "type": "folder"
+         },
+         "unsorted": {
+            "children": [  ],
+            "date_added": "13105444520682059",
+            "date_modified": "13109216191604574",
+            "id": "4",
+            "name": "未分类书签",
+            "type": "folder"
+         },
+         "userRoot": {
+            "children": [  ],
+            "date_added": "13105444520682061",
+            "date_modified": "0",
+            "id": "5",
+            "name": "我的文件夹",
+            "type": "folder"
+         }
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13105444519287515",
+         "date_modified": "13105592780695008",
+         "id": "2",
+         "name": "其他书签",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13105444519287518",
+         "date_modified": "0",
+         "id": "3",
+         "name": "移动设备书签",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
