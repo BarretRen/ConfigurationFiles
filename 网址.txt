@@ -1,2 +1,0 @@
-http://laravelacademy.org/laravel-tutorial-5_1
-http://laravelacademy.org/post/549.html
