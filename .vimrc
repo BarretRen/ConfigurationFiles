@@ -68,8 +68,7 @@ colorscheme desert
 "--------------------------------------------------------------------------------
 " 代码
 "--------------------------------------------------------------------------------
-"set foldmarker={,}
-set foldmethod=marker "代码折叠
+set foldmethod=indent "代码折叠
 "set foldmethod=syntax
 set foldlevel=100       " Don't autofold anything (but I can still fold manually)
 "set foldopen-=search   " don't open folds when you search into them
@@ -109,7 +108,7 @@ let Tlist_Show_One_File=1  "只显示当前文件的tag
 let Tlist_Exit_OnlyWindow = 1  "taglist为最后一个窗口时，退出vim
 let Tlist_Use_Right_Window = 1   "taglist窗口放在右侧
 let Tlist_Show_Menu=1   "显示菜单
-nmap tl :TlistToggle<cr>
+nmap ll :TlistToggle<cr>
 "--------------------------------------------------------------------------------
 " WinManager :WMToggle
 "--------------------------------------------------------------------------------
@@ -130,7 +129,7 @@ let g:miniBufExplUseSingleClick = 1 "Change buffer with single click on a buffer
 "--------------------------------------------------------------------------------
 " cscope
 "--------------------------------------------------------------------------------
-cs add /repo2/barretr/workspace/fdt1265_tmp/cscope.out /repo2/barretr/workspace/fdt1265_tmp/
+cs add /repo2/barretr/workspace/fdt1265_tmp/cscope.out /
 ":set cscopequickfix=s-,c-,d-,i-,t-,e-   "是否使用 quickfix 窗口来显示 cscope 结果
 :set cscopetag
 ":set tags=/home/barretr/space/cvpsw/tags,/home/barretr/space/ISR5501/sw/vobs/tags
@@ -140,13 +139,12 @@ cs add /repo2/barretr/workspace/fdt1265_tmp/cscope.out /repo2/barretr/workspace/
 nmap <C-_>s :cs find s <C-R>=expand("<cword>")<cr><cr>
 nmap <C-_>g :cs find g <C-R>=expand("<cword>")<cr><cr>
 nmap <C-_>c :cs find c <C-R>=expand("<cword>")<cr><cr>
-nmap <C-_>t :cs find t <C-R>=expand("<cword>")<cr><cr>
 nmap <C-_>e :cs find e <C-R>=expand("<cword>")<cr><cr>
 nmap <C-_>f :cs find f <C-R>=expand("<cfile>")<cr><cr>
 nmap <C-_>i :cs find i <C-R>=expand("<cfile>")<cr><cr>
 nmap <C-_>d :cs find d <C-R>=expand("<cword>")<cr><cr>
 "设置自动更新cscope索引文件的快捷键
-nmap <F9> :!find . -iname '*.c' -o -iname '*.cpp' -o -iname '*.h' -o -iname '*.hpp' -o -iname '*.cc' -o -iname '*.hh' -o -iname "*.idl" > ./cscope.files<CR> :!cscope -b -q -i ./cscope.files -f ./cscope.out<CR> :cs reset<CR> 
+nmap <F9> :!find /repo2/barretr/workspace/fdt1265_tmp/sw/src/ -iname '*.c' -o -iname '*.cpp' -o -iname '*.h' -o -iname '*.hpp' -o -iname '*.cc' -o -iname '*.hh' -o -iname "*.idl" > ./cscope.files<CR> :!cscope -b -q -i ./cscope.files -f ./cscope.out<CR> :cs reset<CR> 
 nmap <F10> :cs reset<CR>
 "----------------------------------------------------------------------------
 "source exploer
@@ -172,52 +170,6 @@ autocmd BufReadPost *
 			\ if line("'\"")>0&&line("'\"")<=line("$") |
 						\	exe "normal g'\"" |
 								\ endif
-
-"创建制定类型文档是自动添加title注释
-"autocmd BufNewFile *.[ch],*.hpp,*.cpp exec ":call SetTitle()" 
-
-func SetComment()
-      call setline(1,"/************************************************************************") 
-      call append(line("."), "**                                                                              **")
-      call append(line(".")+1, "**                                            NOKIA                           **")
-      call append(line(".")+2, "**                                                                            **")
-      call append(line(".")+3, "                                                                ")
-      call append(line(".")+4,"***************************************************************************/") 
-      call append(line(".")+5, "/************************ COPYRIGHT INFORMATION ******************")
-      call append(line(".")+6, "   FILE       ：".expand("%:t")) 
-      call append(line(".")+7, "                                                                ")
-      call append(line(".")+8, "   PURPOSE    ：herb")
-      call append(line(".")+9, "                                                                ")
-      call append(line(".")+10,"   CLASS      ：                                                ") 
-      call append(line(".")+11,"                                                               ")
-      call append(line(".")+12,"   SWB        :                                                 ")
-      call append(line(".")+13,"                                                                ")
-      call append(line(".")+14,"   Related Doc:                                                 ")
-      call append(line(".")+15,"                                                                ")
-      call append(line(".")+16,"   AUTHOR     ：Barret Ren") 
-      call append(line(".")+17, "                                                                ")
-      call append(line(".")+18,"   HISTORY    : ")
-      call append(line(".")+19, "  " .strftime(" %Y/%m/%d"))
-      call append(line(".")+20, "                                                                ")
-      call append(line(".")+21, "***********************************************************************/") 
- endfunc
- 
- func SetTitle()
-      call SetComment()
-      if expand("%:e") == 'hpp' 
-         call append(line(".")+22, "#ifndef ".toupper(expand("%:t:r"))."_HPP") 
-         call append(line(".")+23, "#define ".toupper(expand("%:t:r"))."_HPP") 
-         call append(line(".")+27, "#endif //".toupper(expand("%:t:r"))."_HPP") 
-      elseif expand("%:e") == 'h' 
-         call append(line(".")+22, "#ifndef ".toupper(expand("%:t:r"))."_H") 
-         call append(line(".")+23, "#define ".toupper(expand("%:t:r"))."_H") 
-         call append(line(".")+27, "#endif //".toupper(expand("%:t:r"))."_H")
-      elseif &filetype == 'c' 
-         call append(line(".")+22,"#include \"".expand("%:t:r").".h\"") 
-      elseif &filetype == 'cpp' 
-         call append(line(".")+22, "#include \"".expand("%:t:r").".hpp\"") 
-      endif
- endfunc
 "##################################################################
 "########################## End Of Vimrc ##########################
 "##################################################################
