@@ -1,23 +1,23 @@
-[Solarized Dark]
-text=400000
-cyan(bold)=93a1a1
+[light green]
+text=000000
+cyan(bold)=5a6969
 text(bold)=000000
 magenta=dd3682
-green=616f00
+green=859900
 green(bold)=586e75
-background=b0fbb6
+background=80c488
 cyan=2aa198
 red(bold)=cb4b16
-yellow=916c00
+yellow=b58900
 magenta(bold)=6c71c4
 yellow(bold)=657b83
 red=dc322f
-white=c0c0c0
-blue(bold)=839496
-white(bold)=c0c0c0
+white=eee8d5
+blue(bold)=576668
+white(bold)=fdf6e3
 black=002b36
-blue=268bd2
+blue=b82ecb
 black(bold)=073642
 [Names]
-name0=Solarized Dark
+name0=light green
 count=1
