@@ -1,0 +1,12 @@
+{
+    "workbench.colorTheme": "Default Light+",
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=248"
+    ],
+    "workbench.sideBar.location": "left",
+    "python.formatting.provider": "yapf",
+    "editor.formatOnSave": true,
+    "workbench.welcome.enabled": false
+}
