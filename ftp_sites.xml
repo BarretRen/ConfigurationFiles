@@ -1,97 +1,136 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<FileZilla3 version="3.16.1" platform="windows">
-	<Servers>
-		<Folder expanded="1">我的站点<Server>
-				<Host>centos.ustc.edu.cn</Host>
-				<Port>21</Port>
-				<Protocol>0</Protocol>
-				<Type>0</Type>
-				<Logontype>0</Logontype>
-				<TimezoneOffset>0</TimezoneOffset>
-				<PasvMode>MODE_DEFAULT</PasvMode>
-				<MaximumMultipleConnections>0</MaximumMultipleConnections>
-				<EncodingType>Auto</EncodingType>
-				<BypassProxy>0</BypassProxy>
-				<Name>centos.ustc.edu.cn</Name>
-				<Comments />
-				<LocalDir />
-				<RemoteDir />
-				<SyncBrowsing>0</SyncBrowsing>
-				<DirectoryComparison>0</DirectoryComparison>centos.ustc.edu.cn</Server>
-			<Server>
-				<Host>135.252.37.104</Host>
-				<Port>21</Port>
-				<Protocol>0</Protocol>
-				<Type>0</Type>
-				<User>isamv</User>
-				<Pass encoding="base64">aXNhbXY=</Pass>
-				<Logontype>1</Logontype>
-				<TimezoneOffset>0</TimezoneOffset>
-				<PasvMode>MODE_DEFAULT</PasvMode>
-				<MaximumMultipleConnections>0</MaximumMultipleConnections>
-				<EncodingType>Auto</EncodingType>
-				<BypassProxy>0</BypassProxy>
-				<Name>ftp</Name>
-				<Comments />
-				<LocalDir />
-				<RemoteDir>1 0</RemoteDir>
-				<SyncBrowsing>0</SyncBrowsing>
-				<DirectoryComparison>0</DirectoryComparison>ftp</Server>
-			<Server>
-				<Host>ftp.adobe.com</Host>
-				<Port>21</Port>
-				<Protocol>0</Protocol>
-				<Type>0</Type>
-				<Logontype>0</Logontype>
-				<TimezoneOffset>0</TimezoneOffset>
-				<PasvMode>MODE_DEFAULT</PasvMode>
-				<MaximumMultipleConnections>0</MaximumMultipleConnections>
-				<EncodingType>Auto</EncodingType>
-				<BypassProxy>0</BypassProxy>
-				<Name>ftp.adobe.com</Name>
-				<Comments />
-				<LocalDir />
-				<RemoteDir />
-				<SyncBrowsing>0</SyncBrowsing>
-				<DirectoryComparison>0</DirectoryComparison>ftp.adobe.com</Server>
-			<Server>
-				<Host>135.251.206.230</Host>
-				<Port>21</Port>
-				<Protocol>0</Protocol>
-				<Type>0</Type>
-				<User>barretr</User>
-				<Pass encoding="base64">c291cC43ODM=</Pass>
-				<Logontype>1</Logontype>
-				<TimezoneOffset>0</TimezoneOffset>
-				<PasvMode>MODE_DEFAULT</PasvMode>
-				<MaximumMultipleConnections>0</MaximumMultipleConnections>
-				<EncodingType>Auto</EncodingType>
-				<BypassProxy>0</BypassProxy>
-				<Name>linux</Name>
-				<Comments />
-				<LocalDir />
-				<RemoteDir />
-				<SyncBrowsing>0</SyncBrowsing>
-				<DirectoryComparison>0</DirectoryComparison>linux</Server>
-			<Server>
-				<Host>135.251.92.101</Host>
-				<Port>21</Port>
-				<Protocol>0</Protocol>
-				<Type>0</Type>
-				<User>binary</User>
-				<Pass encoding="base64">YmluYXJ5</Pass>
-				<Logontype>1</Logontype>
-				<TimezoneOffset>0</TimezoneOffset>
-				<PasvMode>MODE_DEFAULT</PasvMode>
-				<MaximumMultipleConnections>0</MaximumMultipleConnections>
-				<EncodingType>Auto</EncodingType>
-				<BypassProxy>0</BypassProxy>
-				<Name>oswp</Name>
-				<Comments />
-				<LocalDir />
-				<RemoteDir />
-				<SyncBrowsing>0</SyncBrowsing>
-				<DirectoryComparison>0</DirectoryComparison>oswp</Server>
-		</Folder>
-	</Servers>
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<FileZilla3>
+    <Servers>
+        <Folder expanded="1">My Sites
+            <Server>
+                <Host>centos.ustc.edu.cn</Host>
+                <Port>21</Port>
+                <Protocol>0</Protocol>
+                <Type>0</Type>
+                <Logontype>0</Logontype>
+                <TimezoneOffset>0</TimezoneOffset>
+                <PasvMode>MODE_DEFAULT</PasvMode>
+                <MaximumMultipleConnections>0</MaximumMultipleConnections>
+                <EncodingType>Auto</EncodingType>
+                <BypassProxy>0</BypassProxy>
+                <Name>centos.ustc.edu.cn</Name>
+                <Comments />
+                <LocalDir />
+                <RemoteDir />
+                <SyncBrowsing>0</SyncBrowsing>centos.ustc.edu.cn
+            </Server>
+            <Server>
+                <Host>135.242.61.200</Host>
+                <Port>21</Port>
+                <Protocol>0</Protocol>
+                <Type>0</Type>
+                <User>isamv</User>
+                <Pass encoding="base64">aXNhbXY=</Pass>
+                <Logontype>1</Logontype>
+                <TimezoneOffset>0</TimezoneOffset>
+                <PasvMode>MODE_DEFAULT</PasvMode>
+                <MaximumMultipleConnections>0</MaximumMultipleConnections>
+                <EncodingType>Auto</EncodingType>
+                <BypassProxy>0</BypassProxy>
+                <Name>Lab server</Name>
+                <Comments />
+                <LocalDir />
+                <RemoteDir />
+                <SyncBrowsing>0</SyncBrowsing>Lab server
+            </Server>
+            <Server>
+                <Host>135.251.206.232</Host>
+                <Port>21</Port>
+                <Protocol>0</Protocol>
+                <Type>0</Type>
+                <User>barretr</User>
+                <Pass encoding="base64">c291cC43ODM=</Pass>
+                <Logontype>1</Logontype>
+                <TimezoneOffset>0</TimezoneOffset>
+                <PasvMode>MODE_DEFAULT</PasvMode>
+                <MaximumMultipleConnections>0</MaximumMultipleConnections>
+                <EncodingType>Auto</EncodingType>
+                <BypassProxy>0</BypassProxy>
+                <Name>Linux Server</Name>
+                <Comments />
+                <LocalDir />
+                <RemoteDir>1 0 4 home 7 barretr</RemoteDir>
+                <SyncBrowsing>0</SyncBrowsing>Linux Server
+            </Server>
+            <Server>
+                <Host>135.252.37.104</Host>
+                <Port>21</Port>
+                <Protocol>0</Protocol>
+                <Type>0</Type>
+                <User>binary</User>
+                <Pass encoding="base64">YmluYXJ5</Pass>
+                <Logontype>1</Logontype>
+                <TimezoneOffset>0</TimezoneOffset>
+                <PasvMode>MODE_DEFAULT</PasvMode>
+                <MaximumMultipleConnections>0</MaximumMultipleConnections>
+                <EncodingType>Auto</EncodingType>
+                <BypassProxy>0</BypassProxy>
+                <Name>oswp</Name>
+                <Comments />
+                <LocalDir />
+                <RemoteDir />
+                <SyncBrowsing>0</SyncBrowsing>oswp
+            </Server>
+            <Server>
+                <Host>135.252.28.156</Host>
+                <Port>21</Port>
+                <Protocol>0</Protocol>
+                <Type>0</Type>
+                <User>barretr</User>
+                <Pass encoding="base64">c291cC43ODM=</Pass>
+                <Logontype>1</Logontype>
+                <TimezoneOffset>0</TimezoneOffset>
+                <PasvMode>MODE_DEFAULT</PasvMode>
+                <MaximumMultipleConnections>0</MaximumMultipleConnections>
+                <EncodingType>Auto</EncodingType>
+                <BypassProxy>0</BypassProxy>
+                <Name>QD server</Name>
+                <Comments />
+                <LocalDir />
+                <RemoteDir />
+                <SyncBrowsing>0</SyncBrowsing>QD server
+            </Server>
+            <Server>
+                <Host>135.251.158.73</Host>
+                <Port>21</Port>
+                <Protocol>0</Protocol>
+                <Type>0</Type>
+                <Logontype>0</Logontype>
+                <TimezoneOffset>0</TimezoneOffset>
+                <PasvMode>MODE_DEFAULT</PasvMode>
+                <MaximumMultipleConnections>0</MaximumMultipleConnections>
+                <EncodingType>Auto</EncodingType>
+                <BypassProxy>0</BypassProxy>
+                <Name>公司课程</Name>
+                <Comments />
+                <LocalDir />
+                <RemoteDir />
+                <SyncBrowsing>0</SyncBrowsing>公司课程
+            </Server>
+            <Server>
+                <Host>135.252.37.104</Host>
+                <Port>21</Port>
+                <Protocol>0</Protocol>
+                <Type>0</Type>
+                <User>isamv</User>
+                <Pass encoding="base64">aXNhbXY=</Pass>
+                <Logontype>1</Logontype>
+                <TimezoneOffset>0</TimezoneOffset>
+                <PasvMode>MODE_DEFAULT</PasvMode>
+                <MaximumMultipleConnections>0</MaximumMultipleConnections>
+                <EncodingType>Auto</EncodingType>
+                <BypassProxy>0</BypassProxy>
+                <Name>共享目录</Name>
+                <Comments />
+                <LocalDir />
+                <RemoteDir>1 0</RemoteDir>
+                <SyncBrowsing>0</SyncBrowsing>共享目录
+            </Server>
+        </Folder>
+    </Servers>
 </FileZilla3>
