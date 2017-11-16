@@ -44,7 +44,6 @@ else
 	call plug#begin('~/.vim/bundle')
 endif
 	
-Plug 'Yggdroot/LeaderF'
 Plug 'majutsushi/tagbar'
 Plug 'vim-scripts/EasyGrep'
 Plug 'Yggdroot/indentLine'
@@ -52,6 +51,8 @@ Plug 'vim-scripts/Mark--Karkat'
 Plug 'scrooloose/nerdtree'
 Plug 'vim-scripts/a.vim'
 Plug 'https://github.com/skywind3000/asyncrun.vim.git'
+Plug 'jlanzarotta/bufexplorer'
+Plug 'kien/ctrlp.vim'
 Plug 'machakann/vim-colorscheme-tatami'
 
 call plug#end()
@@ -80,7 +81,6 @@ set smarttab      "指定按一次backspace就删除shiftwidth宽度
 set backspace=2       " 设置退格键可用
 set writebackup     "保存文件前建立备份，保存成功后删除该备份
 set nocompatible
-set vb t_vb=
 "设置无备份文件
 set nobackup
 set noundofile
@@ -277,23 +277,40 @@ let g:select_and_search_active = 1
 nmap m lbve\m
 
 "--------------------------------------------------------------------------------
-" LeaderF, search files,faster than ctrlP
-"--------------------------------------------------------------------------------
-let g:Lf_ShortcutF = '<c-p>' " search file
-let g:Lf_ShortcutB = '<c-b>' " list buffer
-let g:Lf_ShowRelativePath = 0
-let g:Lf_CommandMap = {'<C-C>': ['<Esc>', '<C-C>']}
-let g:Lf_WildIgnore = {
-            \ 'dir': ['.svn','.git','.hg'],
-            \ 'file': ['*.sw?','~$*','*.bak','*.exe','*.o','*.so','*.py[co]','*.D','*.cmd','*.ti']
-            \}
-nmap fu :LeaderfBufTag<cr>
-
-"--------------------------------------------------------------------------------
 " NERDTree
 "--------------------------------------------------------------------------------
 nmap <F5> :NERDTreeToggle<CR>
 let NERDTreeIgnore=['desktop.ini$']
+
+"--------------------------------------------------------------------------------
+" CtrlP
+"--------------------------------------------------------------------------------
+"<Leader>p搜索当前目录下文件
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+"<Leader>f搜索MRU文件
+nmap <c-f> :CtrlPMRU<CR>
+"<Leader>b显示缓冲区文件，并可通过序号进行跳转
+nmap <c-b> :CtrlPBuffer<CR>
+"设置搜索时忽略的文件
+let g:ctrlp_custom_ignore = {
+    \ 'dir':  '\v[\/]\.(git|hg|svn|rvm)$',
+    \ 'file': '\v\.(exe|so|dll|zip|tar|tar.gz|pyc)$',
+    \ }
+let g:ctrlp_working_path_mode = 0
+let g:ctrlp_match_window_bottom = 1
+"修改QuickFix窗口显示的最大条目数
+let g:ctrlp_max_height = 15
+let g:ctrlp_match_window_reversed = 0
+"设置MRU最大条目数为500
+let g:ctrlp_mruf_max = 500
+let g:ctrlp_follow_symlinks = 1
+"默认使用全路径搜索，置1后按文件名搜索，准确率会有所提高，可以用<C-d>进行切换
+let g:ctrlp_by_filename = 1
+"默认不使用正则表达式，置1改为默认使用正则表达式，可以用<C-r>进行切换
+let g:ctrlp_regexp = 0
+"自定义搜索列表的提示符
+let g:ctrlp_line_prefix = '♪ '
 "##################################################################
 "########################## End Of Vimrc ##########################
 "##################################################################
