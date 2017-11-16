@@ -51,6 +51,7 @@ Plug 'Yggdroot/indentLine'
 Plug 'vim-scripts/Mark--Karkat'
 Plug 'scrooloose/nerdtree'
 Plug 'vim-scripts/a.vim'
+Plug 'https://github.com/skywind3000/asyncrun.vim.git'
 Plug 'machakann/vim-colorscheme-tatami'
 
 call plug#end()
@@ -79,6 +80,7 @@ set smarttab      "指定按一次backspace就删除shiftwidth宽度
 set backspace=2       " 设置退格键可用
 set writebackup     "保存文件前建立备份，保存成功后删除该备份
 set nocompatible
+set vb t_vb=
 "设置无备份文件
 set nobackup
 set noundofile
