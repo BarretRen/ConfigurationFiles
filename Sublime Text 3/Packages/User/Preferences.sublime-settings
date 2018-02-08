@@ -1,0 +1,10 @@
+{
+	"font_face": "Consolas",
+	"font_size": 11,
+	"color_scheme": "Packages/Github Color Theme/GitHub.tmTheme",
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"theme": "Adaptive.sublime-theme"
+}
