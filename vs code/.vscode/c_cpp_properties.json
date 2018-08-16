@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "name": "MinGW",
+            "intelliSenseMode": "clang-x64",
+            "includePath": [
+                "${workspaceFolder}",
+                "D:\\software\\Mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++",
+                "D:\\software\\Mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\x86_64-w64-mingw32",
+                "D:\\software\\Mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\backward",
+                "D:\\software\\Mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\tr1",
+                "D:\\software\\Mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include",
+                "D:\\software\\Mingw64\\x86_64-w64-mingw32\\include"
+            ],
+            "defines": [],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "D:\\software\\Mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++",
+                    "D:\\software\\Mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\x86_64-w64-mingw32",
+                    "D:\\software\\Mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\backward",
+                    "D:\\software\\Mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\tr1",
+                    "D:\\software\\Mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include",
+                    "D:\\software\\Mingw64\\x86_64-w64-mingw32\\include"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
