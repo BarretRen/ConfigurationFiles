@@ -1,6 +1,6 @@
 [light green]
 text=000000
-cyan(bold)=5a6969
+cyan(bold)=34e2e2
 text(bold)=000000
 magenta=dd3682
 green=218d05
@@ -10,14 +10,14 @@ cyan=2aa198
 red(bold)=cb4b16
 yellow=b58900
 magenta(bold)=6c71c4
-yellow(bold)=657b83
+yellow(bold)=daa520
 red=dc322f
 white=eee8d5
 blue(bold)=3086ef
 white(bold)=fdf6e3
 black=002b36
 blue=4359f8
-black(bold)=073642
+black(bold)=0b5264
 [Names]
 name0=light green
 count=1
